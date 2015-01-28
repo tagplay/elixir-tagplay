@@ -16,9 +16,7 @@ defmodule Tagplay.Mixfile do
 	end
 
 	def application do
-		apps = [:logger, :httpoison]
-		dev_apps = Mix.env == :dev && [:reprise] || []
-		[applications: dev_apps ++ apps]
+		[applications: [:httpoison, :logger]]
 	end
 
 	defp deps do
