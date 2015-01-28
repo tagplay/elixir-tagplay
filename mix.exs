@@ -11,7 +11,7 @@ defmodule Tagplay.Mixfile do
 			package: package,
 			name: "Tagplay",
 			source_url: "https://github.com/Tagplay/elixir-tagplay",
-			homepage_url: "http://tagplay.co"
+			homepage_url: "http://tagplay.github.io"
 		]
 	end
 
@@ -43,7 +43,7 @@ defmodule Tagplay.Mixfile do
 			licenses: ["MIT"],
 			links: %{
 				"Documentation": "http://hexdocs.pm/tagplay",
-				"Gitter.im": "https://github.com/Tagplay/elixir-tagplay",
+				"API Docs": "https://tagplay.github.io/api",
 				"GitHub": "https://github.com/Tagplay/elixir-tagplay",
 				"Issues": "https://github.com/Tagplay/elixir-tagplay/issues"
 			}
