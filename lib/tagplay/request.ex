@@ -51,8 +51,7 @@ defmodule Tagplay.Request do
 	end
 
 	def _request(method, url, client, body \\ "") do
-		options = [sslopts: [verify: :verify_none]]
-		json_request(method, url, body, authorization_header(client.token), options)
+		json_request(method, url, body, authorization_header(client.token))
 	end
 
 	def json_request(method, url, body \\ "", headers \\ [], options \\ []) do
